@@ -6,6 +6,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Order implements Serializable {
 
+	private static final long serialVersionUID = 6473341055096117578L;
+
 	@JsonProperty("accont")
 	private String account;
 
